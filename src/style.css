@@ -102,8 +102,30 @@ button:focus-visible {
 /*  
 CSS that I wrote.  
 */
+:root {
+    --tsblue: #117ACC;
+    --vitepurp: #BD35FE; 
 
+}
 
+#toaster {
+    border: 2px solid blue;
+    color: var(--tsblue);
+    border-radius: 14px;
+    background: var(--vitepurp);
+    text-align: center;
+    min-width: 150px;
+    margin-left: -75px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+}
+
+#toaster:hover {
+    color: var(--vitepurp);
+    background: var(--tsblue);
+}
 
 
 
