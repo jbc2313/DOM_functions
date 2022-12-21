@@ -77,6 +77,7 @@ button {
 }
 button:hover {
   border-color: #646cff;
+  scale: calc(1.2);
 }
 button:focus,
 button:focus-visible {
@@ -125,6 +126,7 @@ CSS that I wrote.
     border-bottom: solid var(--tsblue) 3px;
     transition: border-bottom 1s;
 }
+
 
 /*
 
