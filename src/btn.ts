@@ -1,7 +1,8 @@
 export function createButton(text: string) {
-    const bodyEl = document.querySelector('body');
+    const appEl = document.querySelector('#app');
     const btnEl = document.createElement('button');
+    btnEl.classList.add('btn');
     btnEl.innerText = text;
-    bodyEl?.append(btnEl);
+    appEl?.append(btnEl);
 
 }
