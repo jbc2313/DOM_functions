@@ -120,11 +120,16 @@ CSS that I wrote.
     z-index: 1;
     left: 50%;
     bottom: 30px;
+    visibility: hidden;
 }
 
 #toaster:hover {
     color: var(--vitepurp);
     background: var(--tsblue);
+}
+
+#toaster.vis {
+    visibility: visible;
 }
 
 
