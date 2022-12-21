@@ -117,10 +117,33 @@ CSS that I wrote.
     visibility: visible;
 }
 
+.flash {
+    border-bottom: solid #242424 3px;
+}
 
+.flash:hover {
+    border-bottom: solid var(--tsblue) 3px;
+    transition: border-bottom 1s;
+}
 
+/*
 
+animations and transitions are different...
+learn everyday!
 
+@keyframes slide {
+    from {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+}
+*/
 
 
 
