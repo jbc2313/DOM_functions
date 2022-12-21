@@ -110,7 +110,7 @@ CSS that I wrote.
 
 #toaster {
     border: 2px solid blue;
-    color: var(--tsblue);
+    color: black;
     border-radius: 14px;
     background: var(--vitepurp);
     text-align: center;
@@ -124,7 +124,7 @@ CSS that I wrote.
 }
 
 #toaster:hover {
-    color: var(--vitepurp);
+    color: white;
     background: var(--tsblue);
 }
 
